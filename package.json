@@ -1,0 +1,26 @@
+{
+  "name": "prisma-toolkit",
+  "version": "1.0.0",
+  "scripts": {
+    "db:comment:pull": "bun dbCommentPull.ts",
+    "db:comment:push": "bun dbCommentPush.ts",
+    "db:main:pull": "bun dbMap.ts"
+  },
+  "keywords": [],
+  "author": "Louis Tsang",
+  "license": "MIT",
+  "description": "A comprehensive toolkit for Prisma schema management, offering automated solutions for naming conventions, database mapping, and comment synchronization.",
+  "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387",
+  "dependencies": {
+    "@prisma/sdk": "^4.0.0",
+    "change-case": "^5.4.4",
+    "dotenv": "^16.5.0",
+    "mysql2": "^3.14.0",
+    "pluralize": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
